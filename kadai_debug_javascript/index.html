@@ -128,7 +128,7 @@
         function startAlert() {
             // let alertInterval = setInterval(() => {
             // letを削除
-            let alertInterval = setInterval(() => {
+            alertInterval = setInterval(() => {
                 document.body.style.backgroundColor = document.body.style.backgroundColor === 'red' ? 'white' : 'red';
             }, 1000);
             document.getElementById('alertStop').classList.remove('hidden')
